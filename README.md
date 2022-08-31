@@ -89,4 +89,4 @@ lyoj 目前**只支持使用 g++** 进行编译，clang 和 MSVC 都无法编译
 
 对于 `ArchLinux` 系统: `sudo pacman -S jsoncpp mysql++ openssl gcc --noconfirm`
 
-对于 `Windows` 系统，下载 [windows-lib.zip]()，解压后将 `dll/*.dll` 文件放到 `C:/Windows/System32` 目录下，将 `lib/*.a` 文件放到 `MinGW目录/lib` 目录下，将 `include` 里的所有文件夹放到 `MinGW目录/include/c++/版本号` 目录下
+对于 `Windows` 系统，下载 [windows-lib.zip](https://github.com/lyoj-dev/lyoj2/releases/download/winlibs/windows-lib.zip)，解压后将 `dll/*.dll` 文件放到 `C:/Windows/System32` 目录下，将 `lib/*.a` 文件放到 `MinGW目录/lib` 目录下，将 `include` 里的所有文件夹放到 `MinGW目录/include/c++/版本号` 目录下
