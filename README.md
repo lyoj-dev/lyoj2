@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github-raw.littleyang.ml/LittleYang0531/image/main/lyoj/logo.png"></p>
 
-<center>新一代跨平台在线评测系统，使用 C++ 进行构建。</center>
+<p><center>新一代跨平台在线评测系统，使用 C++ 进行构建。</center></p>
 
 -----
 
