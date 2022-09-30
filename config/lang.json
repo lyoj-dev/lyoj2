@@ -1,0 +1,287 @@
+{
+    "lang": [
+        {
+            "name":"C++98 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++98 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++98 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++98 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++03 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++03 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++03 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++03 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++11 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++11 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++11 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++11 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++14 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++14 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++14 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++14 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++17 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++17 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++17 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++17 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++20 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++2a -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C++20 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"cpp",
+            "highlight-mode":"cpp",
+            "source_path":"main.cpp",
+            "command":"g++ $source$ -o $binary$ -std=c++2a -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C89 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c89 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C89 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c89 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C90 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c90 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C90 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c90 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C99 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c99 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C99 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c99 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C11 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c11 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C11 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c11 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C17 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c17 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C17 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c17 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C18 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c18 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C18 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c18 -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C20 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c2x -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"C20 O2 (gcc9.3.0 amd64)",
+            "type":0,
+            "mode":"c",
+            "highlight-mode":"c",
+            "source_path":"main.c",
+            "command":"gcc $source$ -o $binary$ -std=c2x -O2 -DONLINE_JUDGE -Wall -fno-asm -lm -march=native ",
+            "exec_command":"$binary$"
+        },{
+            "name":"Pascal (fpc3 amd64)",
+            "type":0,
+            "mode":"pascal",
+            "highlight-mode":"pascal",
+            "source_path":"main.pas",
+            "command":"fpc $source$ -omain -dONLINE_JUDGE -vnw",
+            "exec_command":"$binary$"
+        },{
+            "name":"jdk8 (openjdk-8 amd64)",
+            "type":2,
+            "mode":"java",
+            "highlight-mode":"java",
+            "source_path":"main.java",
+            "command":"javac8 $source$",
+            "exec_command":"/usr/bin/java8 $binary$"
+        },{
+            "name":"jdk11 (openjdk-11 amd64)",
+            "type":1,
+            "mode":"java",
+            "highlight-mode":"java",
+            "source_path":"main.java",
+            "exec_command":"/usr/bin/java11 $source$"
+        },{
+            "name":"jdk13 (openjdk-13 amd64)",
+            "type":1,
+            "mode":"java",
+            "highlight-mode":"java",
+            "source_path":"main.java",
+            "exec_command":"/usr/bin/java13 $source$"
+        },{
+            "name":"jdk16 (openjdk-16 amd64)",
+            "type":1,
+            "mode":"java",
+            "highlight-mode":"java",
+            "source_path":"main.java",
+            "exec_command":"/usr/bin/java16 $source$"
+        },{
+            "name":"jdk17 (openjdk-17 amd64)",
+            "type":1,
+            "mode":"java",
+            "highlight-mode":"java",
+            "source_path":"main.java",
+            "exec_command":"/usr/bin/java17 $source$"
+        },{
+            "name":"php7.4 (php7.4 amd64)",
+            "type":1,
+            "mode":"php",
+            "highlight-mode":"php",
+            "source_path":"main.php",
+            "exec_command":"/usr/bin/php7.4 $source$"
+        },{
+            "name":"php8.1 (php8.1 amd64)",
+            "type":1,
+            "mode":"php",
+            "highlight-mode":"php",
+            "source_path":"main.php",
+            "exec_command":"/usr/bin/php8.1 $source$"
+        },{
+            "name":"Python2 (python2 amd64)",
+            "type":1,
+            "mode":"python",
+            "highlight-mode":"python",
+            "source_path":"main.py",
+            "exec_name":"python2",
+            "exec_command":"/usr/bin/python2 $source$"
+        },{
+            "name":"Python3 (python3 amd64)",
+            "type":1,
+            "mode":"python",
+            "highlight-mode":"python",
+            "source_path":"main.py",
+            "exec_command":"/usr/bin/python3 $source$"
+        }
+    ],
+    "default_lang":7
+}

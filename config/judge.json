@@ -1,0 +1,17 @@
+{
+    "type": "sqlite",
+    "mysql": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "passwd": "",
+        "database": "judge"
+    },
+    "sqlite": {
+        "db": "./db/test.db"
+    },
+    "judge": {
+        "thread": 1,
+        "name": "LittleYang0531's Ubuntu LTS 20.04"
+    }
+}

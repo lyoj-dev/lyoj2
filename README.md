@@ -6,6 +6,8 @@
 
 (文件夹已经建好了，别催了，别催了......)
 
+**此版本暂未完工，如有需要，可前往 https://github.com/lyoj-dev/lyoj 安装 LYOJ v1.0**
+
 ## 功能简介
 
 1. 全程使用 C++ 进行开发，省去了 v1 版本部署 PHP8.0 和 nginx 的复杂步骤。
@@ -89,4 +91,34 @@ lyoj 目前**只支持使用 g++** 进行编译，clang 和 MSVC 都无法编译
 
 对于 `ArchLinux` 系统: `sudo pacman -S jsoncpp mysql++ openssl gcc --noconfirm`
 
-对于 `Windows` 系统，下载 [windows-lib.zip](https://github.com/lyoj-dev/lyoj2/releases/download/winlibs/windows-lib.zip)，解压后将 `dll/*.dll` 文件放到 `C:/Windows/System32` 目录下，将 `lib/*.a` 文件放到 `MinGW目录/lib` 目录下，将 `include` 里的所有文件夹放到 `MinGW目录/include/c++/版本号` 目录下
+对于 `Windows` 系统，下载 [windows-lib.zip](https://github.com/lyoj-dev/lyoj2/releases/download/winlibs/windows-lib.zip)，解压后将 `dll/*.dll` 文件放到 `C:/Windows/System32` 目录下，将 `lib/*.a` 文件放到 `MinGW目录/lib` 目录下，将 `include` 里的所有文件夹放到 `MinGW目录/include/c++/版本号` 目录下即可。
+
+### 编译应用
+
+对于 `Linux` 系统: 
+
+```bash
+sudo g++ judge/judge.cpp -o/usr/bin/lyoj-judge -lpthread -ljsoncpp -lmysqlclient -std=c++14 -O3
+sudo g++ webserver/webserver.cpp -o/usr/bin/lyoj-webserver -lpthread -ljsoncpp -lmysqlclient -lcrypto -lssl -std=c++14 -O3
+sudo g++ websocket/websocket.cpp -o/usr/bin/lyoj-websocket -lpthread -ljsoncpp -lmysqlclient -lcrypto -lssl -std=c++14 -O3
+```
+
+对于 `Windows` 系统: 
+
+```bash
+g++ judge/judge.cpp -olyoj-judge.exe -lpthread -ljson -lmysql -std=c++14 -O3
+g++ webserver/webserver.cpp -olyoj-webserver.exe -lpthread -lcrypto -lssl -ljson -lmysql -lstd=c++14 -O3
+g++ websocket/websocket.cpp -olyoj-websocket.exe -lpthread -lcrypto -lssl -ljson -lmysql -lstd=c++14 -O3
+```
+
+### 运行服务
+
+对于 `Linux` 系统: 
+
+```bash
+sudo lyoj-judge > /dev/null &
+sudo lyoj-webserver > /dev/null &
+sudo lyoj-websocket > /dev/null &
+```
+
+对于 `Windows` 系统: 运行主目录下的三个可执行文件即可。
